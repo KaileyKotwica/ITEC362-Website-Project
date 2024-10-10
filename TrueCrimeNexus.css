@@ -1,0 +1,114 @@
+/* This starts the Styling for Body which is present of every page */
+body {
+    font-family: Arial, sans-serif; /* Sets the font familiy for text in the body across all pages*/
+    font-size: 18pt; /* Allows me to set the font size for text in the body across all pages */
+    margin: 0; /* Allows me to set the margin for text in the body across all pages */
+    padding: 0; /* Allows me to set the padding for text in the body accress all pages */
+    background-color: #f0f0f0; /* Sets the background color for text in the body across all pages */
+    color: #333; /* Sets the color of the text in the body to a dark grey */
+}
+
+/* This begins the Styling for the Header of the Website */
+header {
+    background-color: #333; /* Sets the background color for the header to a dark grey */
+    color: white; /* Sets the color of the text for the Title to white and allows for contrast */
+    padding: 20px; /* Padding allows me to put a little bit of space between the edge of the window and the Logo */
+    display: flex; /* A flex box allows me to align the Logo and Title horozontally instead of vertically */
+    align-items: center;  /*Allows me to align the Logo and put the Title in the center beside the Logo */
+    justify-content: flex-start; /* Allows me to align my Logo and Title to the left of the header */
+}
+
+header img {
+    width: 300px; /* Allows me to change the width of the Logo */
+    height: auto; /* Allows the height to auto-adjust to correlate to the width of the Logo */
+    margin-right: 40px; /* Allows me to add space between the Logo and the Title */
+}
+
+header h1 {
+    margin-left: 200px; /* Allows me to put some more space between my Logo and Title so that my Title is almost centered */
+    font-size: 28pt; /* Allows me to change the font size of my Title */
+}
+
+/* This begins the Styling for the Navigation Bar of the Website */
+nav {
+    background-color: #444; /* Sets the background color for the navigation bar */
+    padding: 10px; /* Sets the padding all around the navigation bar text */
+    text-align: center; /* Aligns the text in the center of the navigation bar */
+}
+
+nav a {
+    color: white; /* Allows me to set the text color to white for the text in the navigation bar */
+    text-decoration: none; /* I am clarifying that I don't want any text decoration for the naivagtion bar text */
+    margin: 0 15px; /* Allows me to add space between the text for my other pages */
+    font-size: 24px; /* Allows me to set the font size of the text for the navigation bar */
+}
+
+/* This begins the Styling for the Sections and Images in those Sections of the Website */
+section {
+    padding: 20px; /* This allows me to put padding around image and the text each section on the page */
+    background-color: white; /* Sets the background color of the section */
+    margin: 20px; /* Allows me to add space around each section on the page*/
+}
+
+#Homepage-about img {
+    width: 60%; /* Sets the image to 60% of the section's width */
+    height: auto; /* Allows the height to auto-adjust to correlate with the width of the image */
+    margin: 10px 10px; /* Allows me to add space around each side of the image */
+}
+
+#Podcasts img {
+    width: 20%; /* Sets the images to 20% of the section's width */
+    height: auto; /* Allows the height to auto-adjust to correlate with the width of the images */
+    margin: 10px 10px; /* Allows me to add space around each side of the images */
+}
+
+#Resources img {
+    width: 28%; /* Sets the images to 28% of the section's width */
+    height: auto; /* Allows the height to auto-adjust to correlate with the width of the immages */
+    margin: 10px 10px; /* Allows me to add space around each side of the images */
+}
+
+/* This begins the Styling for the Contact Form of the Website */
+form div {
+    margin-bottom: 20px; /* this allows me to add spaccing around each div on the form */
+}
+
+label {
+    display:block; /* Displays all of the Labels in a block format */
+    font-weight: bold; /* Allows me to make the text of the Labels bold */
+}
+
+input[type="text"], textarea {
+    width: 60%; /* Sets the Width of the boxes for the text input to 60% of the section */
+    padding: 8px; /* Allows me to add space in front of the text that would be entered in the text input boxes and textarea */
+    margin: 5px 5px; /* Allows me to add space around the text input boxes and textarea */
+    font-size: 18pt; /* Sets the font size of the text for the text input boxes and textarea */
+    border: 1px solid #ccc; /* Creates a  solid  1px border for the text input boxes and textarea */
+    border-radius: 4px; /* Allows for the Cruved corners of the text input boxes and textarea */
+}
+
+input[type="submit"] {
+    background-color: #333; /* Sets the background color for the header to a dark grey */
+    color: white; /* Allows me to set the text color to white for the text in the submit button */
+    border: none; /* I am clarifying that I do not want a border for the submit button */
+    padding: 15px 20px; /* Allows me to add space all around the text 'submit' for the submit button */
+    border-radius: 4px; /* Allows for the Cruved corners of the submit button */
+    font-size: 16pt; /* Sets the font size of the text for the submit button */
+}
+
+/* This begins the Styling for the Footer of the Website */
+footer {
+    background-color: #333; /* Sets the background color for the header to a dark grey */
+    color: white; /* Allows me to set the text color to white for the text in the Footer */
+    text-align: center; /* Aligns the text in the center of the Footer */
+    font-size: 12pt; /* Sets the font size of the text for the Footer */
+    padding: 20px; /* Allows me to add space all around the text for the Footer */
+    position: relative; 
+    bottom: 0;
+    width: 100%; /* Sets the width to span the whole webpage */
+}
+
+footer img {
+    width: 50px; /* Sets the width of the social media images */
+    margin: 5px 5px; /* Allows me to add space around the text input boxes and textarea */
+}
