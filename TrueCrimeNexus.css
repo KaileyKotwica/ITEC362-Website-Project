@@ -1,4 +1,8 @@
 /* This starts the Styling for Body which is present of every page */
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif; /* Sets the font familiy for text in the body across all pages*/
     font-size: 18pt; /* Allows me to set the font size for text in the body across all pages */
@@ -34,9 +38,11 @@ header h1 {
 /* This begins the Styling for the Navigation Bar of the Website */
 nav {
     background-color: #444; /* Sets the background color for the navigation bar */
-    padding: 10px; /* Sets the padding all around the navigation bar text */
-    text-align: center; /* Aligns the text in the center of the navigation bar */
+    padding: 10; /* Remove padding to allow full width */
+    text-align: center; /* Center aligns the text */
     width: 100vw; /* Sets the width to span the whole webpage */
+    display: flex; /* Use flexbox to align items */
+    justify-content: center; /* Center the links within the nav */
 }
 
 nav a {
