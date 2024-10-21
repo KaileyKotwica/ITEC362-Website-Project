@@ -16,7 +16,7 @@ header {
     display: flex; /* A flex box allows me to align the Logo and Title horozontally instead of vertically */
     align-items: center;  /*Allows me to align the Logo and put the Title in the center beside the Logo */
     justify-content: flex-start; /* Allows me to align my Logo and Title to the left of the header */
-    width: 100%; /* Sets the width to span the whole webpage */
+    width: 100vw; /* Sets the width to span the whole webpage */
 }
 
 header img {
@@ -35,7 +35,7 @@ nav {
     background-color: #444; /* Sets the background color for the navigation bar */
     padding: 10px; /* Sets the padding all around the navigation bar text */
     text-align: center; /* Aligns the text in the center of the navigation bar */
-    width: 100%; /* Sets the width to span the whole webpage */
+    width: 100vw; /* Sets the width to span the whole webpage */
 }
 
 nav a {
@@ -107,7 +107,7 @@ footer {
     padding: 20px; /* Allows me to add space all around the text for the Footer */
     position: relative; 
     bottom: 0;
-    width: 100%; /* Sets the width to span the whole webpage */
+    width: 100vw; /* Sets the width to span the whole webpage */
 }
 
 footer img {
