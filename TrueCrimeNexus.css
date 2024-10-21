@@ -6,6 +6,7 @@ body {
     padding: 0; /* Allows me to set the padding for text in the body accress all pages */
     background-color: #f0f0f0; /* Sets the background color for text in the body across all pages */
     color: #333; /* Sets the color of the text in the body to a dark grey */
+    overflow-y: scroll;
 }
 
 /* This begins the Styling for the Header of the Website */
