@@ -64,12 +64,6 @@ section {
     margin: 20px; /* Allows me to add space around each section on the page*/
 }
 
-#Homepage-about img {
-    width: 60%; /* Sets the image to 60% of the section's width */
-    height: auto; /* Allows the height to auto-adjust to correlate with the width of the image */
-    margin: 10px 10px; /* Allows me to add space around each side of the image */
-}
-
 /* This begins the Styling for the Podcasts Table*/
 section table {
     width: 100%;
@@ -100,11 +94,16 @@ section table p {
 
 /* This begins the Specific styling for images in the resources table */
 section#Resources table img {
-    width: 300px;  /* Set the desired width */
-    height: auto;  /* Keeps the aspect ratio */
-    margin-bottom: 10px; /* Optional: adds space below each image */
+    width: 300px;  /* Sets the image to 60% of the section's width */
+    height: auto;  /* Allows the height to auto-adjust to correlate with the width of the image */
+    margin-bottom: 10px; /* Allows me to add space around each side of the image */
 }
 
+section#Homepage-about table img {
+    width: 500px;  /* Sets the image to 60% of the section's width */
+    height: auto;  /* Allows the height to auto-adjust to correlate with the width of the image */
+    margin-bottom: 10px; /* Allows me to add space around each side of the image */
+}
 
 /* This begins the Styling for the Contact Form of the Website */
 form div {
