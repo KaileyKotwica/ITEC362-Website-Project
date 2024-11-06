@@ -94,13 +94,13 @@ section table p {
 
 /* This begins the Specific styling for images in the resources table */
 section#Resources table img {
-    width: 300px;  /* Sets the image to 60% of the section's width */
+    width: 300px;  /* Sets the image to 500px of the section's width */
     height: auto;  /* Allows the height to auto-adjust to correlate with the width of the image */
     margin-bottom: 10px; /* Allows me to add space around each side of the image */
 }
 
 section#Homepage-about table img {
-    width: 500px;  /* Sets the image to 60% of the section's width */
+    width: 500px;  /* Sets the image to 500px of the section's width */
     height: auto;  /* Allows the height to auto-adjust to correlate with the width of the image */
     margin-bottom: 10px; /* Allows me to add space around each side of the image */
 }
